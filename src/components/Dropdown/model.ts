@@ -16,6 +16,7 @@ export interface DropdownProps<T> {
   ref?:
     | React.RefObject<IDropdownRef>
     | React.MutableRefObject<IDropdownRef>
+    | React.ForwardedRef<IDropdownRef>
     | null
     | undefined;
   testID?: string;
